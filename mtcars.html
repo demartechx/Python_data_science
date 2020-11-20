@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>mtcars | Kaggle</title>
+    <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Kaggle is the world&#x2019;s largest data science community with powerful tools and resources to help you achieve your data science goals." />
+    <meta name="turbolinks-cache-control" content="no-cache" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+    <meta name="theme-color" content="#008ABC" />
+    <script nonce="nwPCVBlgk3kXH2VT8cbkkA==" type="text/javascript">
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations()
+                .then(function(registrations) {
+                    for (let registration of registrations) {
+                        registration.unregister();
+                    }
+                })
+                .catch(function(err) {
+                    console.error("Service worker unregister failed: ", err);
+                });
+        }
+    </script>
+    <script nonce="nwPCVBlgk3kXH2VT8cbkkA==" type="text/javascript">
+        window["pageRequestStartTime"] = 1605879059979;
+        window["pageRequestEndTime"] = 1605879060213;
+        window["initialPageLoadStartTime"] = new Date().getTime();
+    </script>
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+    <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons" rel="stylesheet" type='text/css' />
+        <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=b19602b0a6eb6453d9c5" />
+        <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=8fdb667cb29868ea51a4" />
+    
+    
+ 
+    
+    <script nonce="nwPCVBlgk3kXH2VT8cbkkA==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="nwPCVBlgk3kXH2VT8cbkkA==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-12629138-1', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+    </script>
+    <script nonce="nwPCVBlgk3kXH2VT8cbkkA==" async src="https://www.googletagmanager.com/gtag/js?id=UA-12629138-1"></script>
+
+    
+    
+        <meta property="og:url" content="https://kaggle.com/lavanya321/mtcars" />
+        <meta property="og:title" content="mtcars" />
+        <meta property="og:description" content="" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-49.png-1938055/dataset-card.png" />
+        <meta property="fb:app_id" content="2665027677054710" />
+
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@kaggledatasets" />
+    
+
+    
+    
+        <script nonce="nwPCVBlgk3kXH2VT8cbkkA==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"mtcars","description":"# Dataset\nThis dataset was created by lavanya\n\nReleased under CC0: Public Domain\n\n# Contents\nIt contains the following files:\n\n","url":"https://www.kaggle.com/lavanya321/mtcars","sameAs":"","version":1,"keywords":[],"license":{"@type":"CreativeWork","name":"CC0: Public Domain","url":"https://creativecommons.org/publicdomain/zero/1.0/"},"identifier":["28259"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"lavanya","url":"https://www.kaggle.com/lavanya321","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/lavanya321/mtcars/download","contentSize":"1816 bytes"}],"commentCount":1,"dateModified":"2018-05-24T13:13:37.503","discussionUrl":"https://www.kaggle.com/lavanya321/mtcars/discussion","alternateName":"","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-49.png-1938055/dataset-card.png","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":1},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":976},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":3295},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":13}]}</script>
+    
+
+    
+    
+    
+<script nonce="nwPCVBlgk3kXH2VT8cbkkA==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+
+    Kaggle.Current = {
+        userId: 6188516,
+        userProfileUrl: '/demartechx',
+        userDisplayNameEscaped: 'Adeagbo Matthew thompson',
+        userThumbnailUrl: 'https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png',
+        userEmail: 'adeagbothompson@gmail.com',
+        userIsPhoneVerified: false,
+        userName: 'demartechx',
+        tier: 'Novice',
+        antiForgeryToken: 'CfDJ8LdUzqlsSWBPr4Ce3rb9VL8H1AHFxqT1XeqL2mtxax0jC79f-M9XLth5CS3BrEL6tvnbJkfKR3Kb9X9OY9CyTZYtLkr4ed_gGW78Zme3LoPzWOTIo0Jzi2qmZ80Y5u3AeXzv-lSNprGhZidFVaqmz16LnT-54hTefqh32BNkLO2FVhFdaAYQzuXi3hSSCVXOLw',
+        isAnonymous: false,
+        analyticsToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDU4Nzk5NjAsIlVzZXJJZCI6NjE4ODUxNn0.9QrYY-wHZqz9nGYtf3y-4HfbWwEF0QCu-71wpR8NMEQ',
+        analyticsTokenExpiry: 15,
+        
+        
+        
+        
+        
+        
+        mdeImageUploader: true,
+        
+        enableRapidash: true, 
+    }
+        Kaggle.Current.log = function(){};
+        Kaggle.Current.warn = function(){};
+
+    var decodeUserDisplayName = function () {
+        var escapedUserDisplayName = Kaggle.Current.userDisplayNameEscaped || "";
+        try {
+            var textVersion = new DOMParser().parseFromString(escapedUserDisplayName, "text/html").documentElement.textContent;
+            if (textVersion) {
+                return textVersion;
+            }
+        } catch(ex) {}
+        return escapedUserDisplayName;
+    }
+    Kaggle.Current.userDisplayName = decodeUserDisplayName();
+</script>
+
+    
+
+<script nonce="nwPCVBlgk3kXH2VT8cbkkA==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+    Kaggle.PageMessages = [];
+</script>
+
+        <script nonce="nwPCVBlgk3kXH2VT8cbkkA==" type="text/javascript">
+/* <![CDATA[ */
+goog_snippet_vars = function() {
+    var w = window;
+    w.google_conversion_id = 955616553;
+    w.google_conversion_label = "QSjvCKDksHMQqZrWxwM";
+    w.google_conversion_value = 0.00;
+    w.google_conversion_currency = "USD";
+    w.google_remarketing_only = false;
+    w.google_conversion_language = "en";
+    w.google_conversion_format = "3";
+    w.google_conversion_color = "ffffff";
+}
+// DO NOT CHANGE THE CODE BELOW.
+goog_report_conversion = function(url) {
+    goog_snippet_vars();
+    window.google_conversion_format = "3";
+    var opt = new Object();
+    opt.onload_callback = function() {
+        if (typeof(url) != 'undefined') {
+            window.location = url;
+        }
+    }
+    var conv_handler = window['google_trackConversion'];
+    if (typeof(conv_handler) == 'function') {
+        conv_handler(opt);
+    }
+}
+/* ]]> */
+    </script>
+    <script nonce="nwPCVBlgk3kXH2VT8cbkkA==" type="text/javascript"
+            src="//www.googleadservices.com/pagead/conversion_async.js">
+    </script>
+
+
+
+        <script nonce="nwPCVBlgk3kXH2VT8cbkkA==">window['useKaggleAnalytics'] = true;</script>
+
+    <script id="gapi-target" nonce="nwPCVBlgk3kXH2VT8cbkkA==" src="https://apis.google.com/js/api.js" defer async></script>
+    <script nonce="nwPCVBlgk3kXH2VT8cbkkA==" src="/static/assets/runtime.js?v=f6206d84ffd28ff1dc59" data-turbolinks-track="reload"></script>
+    <script nonce="nwPCVBlgk3kXH2VT8cbkkA==" src="/static/assets/vendor.js?v=36d5c183e0686dc36c31" data-turbolinks-track="reload"></script>
+    <script nonce="nwPCVBlgk3kXH2VT8cbkkA==" src="/static/assets/app.js?v=f81aee9cf96acc0b5fdc" data-turbolinks-track="reload"></script>
+        <script nonce="nwPCVBlgk3kXH2VT8cbkkA==" type="text/javascript">
+            window.kaggleStackdriverConfig = {
+                key: 'AIzaSyDANGXFHtSIVc51MIdGwg4mQFgm3oNrKoo',
+                projectId: 'kaggle-161607',
+                service: 'web-fe',
+                version: 'ci',
+                context: {
+                    user: '6188516',
+                },
+            };
+        </script>
+</head>
+<body data-turbolinks="false">
+    <main>
+        
+
+
+
+
+
+
+<div id="site-container"></div>
+<div data-component-name="NavigationContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="nwPCVBlgk3kXH2VT8cbkkA==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"navigationType":"BOTH_NAV"});performance && performance.mark && performance.mark("NavigationContainer.componentCouldBootstrap");</script>
+<div id="site-body" class="hide">
+    
+
+
+<div data-component-name="DatasetContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="nwPCVBlgk3kXH2VT8cbkkA==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"scripts":[],"discussions":[],"pageMessages":[],"discussion":{"canDownvote":false,"dataUrl":"/forums/36481/topics.json","id":36481,"isRootLevel":false,"showSubscribeButton":false,"isSubscribed":false,"subscription":"unsubscribe","initialTopics":null,"paramValues":{"category":"all","page":1,"search":null,"group":"all","sortBy":"hot"}},"currentTab":"data","newTopic":{"allowAttachments":true,"authorRanking":null,"authorTier":"novice","authorType":"topic","forumId":36481,"parentName":"mtcars","parentUrl":"/lavanya321/mtcars/discussion"},"categories":{"type":"dataset","tags":[]},"upvoteSuggestion":{"voteCount":13,"medalVoteCount":1,"upVoteUrl":"/lavanya321/mtcars/vote","upVoters":[{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1904692-fb.jpg","displayName":"Akshay Rana","profileUrl":"/akshay2015","tier":"Contributor","tierInt":1,"userId":1904692,"userName":"akshay2015"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Nick","profileUrl":"/npallardy60","tier":"Novice","tierInt":0,"userId":2237724,"userName":"npallardy60"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/2451631-gp.jpg","displayName":"FutureEngineer","profileUrl":"/futureengineer","tier":"Novice","tierInt":0,"userId":2451631,"userName":"futureengineer"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Piyush Kedia","profileUrl":"/piyushkedia","tier":"Novice","tierInt":0,"userId":2530794,"userName":"piyushkedia"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"sarvesh","profileUrl":"/sarveshjoshi","tier":"Novice","tierInt":0,"userId":2951587,"userName":"sarveshjoshi"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Abhishek","profileUrl":"/abhi050","tier":"Novice","tierInt":0,"userId":3015755,"userName":"abhi050"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Tokanchi Abhishek","profileUrl":"/abhishek130","tier":"Novice","tierInt":0,"userId":3016790,"userName":"abhishek130"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Cynthia Nwakaeme","profileUrl":"/ebybaby","tier":"Novice","tierInt":0,"userId":3699127,"userName":"ebybaby"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/3755058-kg.png","displayName":"Jason.jr.09","profileUrl":"/jason09","tier":"Novice","tierInt":0,"userId":3755058,"userName":"jason09"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/4022788-kg.png","displayName":"Richard Mokuolu","profileUrl":"/richardmokuolu","tier":"Novice","tierInt":0,"userId":4022788,"userName":"richardmokuolu"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"pankaj dhote","profileUrl":"/pankajdhote","tier":"Novice","tierInt":0,"userId":4855929,"userName":"pankajdhote"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","displayName":"Ashish Agrawal","profileUrl":"/skullmind","tier":"Novice","tierInt":0,"userId":5164240,"userName":"skullmind"},{"avatarThumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/1415255-gp.jpg","displayName":"Dharini Krishnaswamy","profileUrl":"/dharini03","tier":"Novice","tierInt":0,"userId":1415255,"userName":"dharini03"}]},"readerGroupId":null,"writerGroupId":null,"collaborators":{"owner":{"userId":1938055,"groupId":null,"groupMemberCount":null,"profileUrl":"/lavanya321","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","name":"lavanya","slug":"lavanya321","userTier":0,"joinDate":null,"type":"owner","isUser":true,"isGroup":false},"collaborators":[]},"isCollaborator":false,"deletionNeedsReview":false,"hasDatasetDoiApproved":false,"canSeeConfigAsCode":true,"canSeeDatasetTasks":false,"canCreateDatasetTasks":true,"blockTaskCreation":false,"canSeeDatasetHashLink":true,"medalUrl":null,"datasetHashLink":null,"datasetId":28259,"isRemoved":false,"isVersionRemoved":false,"isFeatured":false,"isSuperFeatured":false,"scheduledToBeFeatured":null,"scheduledToBeUnFeatured":null,"scheduledToBeSuperFeatured":null,"scheduledToBeUnSuperFeatured":null,"datasetVersionId":36005,"datasetVersionNumber":1,"lastVersionNumber":1,"datasetUrl":"/lavanya321/mtcars","datasetExternalUrl":"https://kaggle.com/lavanya321/mtcars","originalImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/default-backgrounds/49.png","coverImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-49.png-1938055/dataset-cover.png","cardImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-49.png-1938055/dataset-card.png","thumbnailImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-49.png-1938055/dataset-thumbnail.png","license":{"id":1,"name":"CC0: Public Domain","description":"CC0: Public Domain \u003ca href=\u0022https://creativecommons.org/publicdomain/zero/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/publicdomain/zero/1.0/","displaySequence":null},"voteCount":13,"upVoteUrl":"/lavanya321/mtcars/vote","creatorUserId":1938055,"creatorDisplayName":"lavanya","ownerTwitter":null,"lastUpdated":"2018-05-24T13:13:37.503Z","downloadUrl":"/lavanya321/mtcars/download","newNotebookUrl":"/kernels/notebooks/new?userName=demartechx\u0026datasetVersionId=36005","newScriptUrl":"/kernels/scripts/new?userName=demartechx\u0026datasetVersionId=36005","hasAlreadyVotedUp":false,"isOldDatasetVersion":false,"numberOfViews":3295,"numberOfDownloads":976,"numberOfScripts":10,"numberOfTopics":1,"numberOfTasks":0,"canEdit":false,"canPerformOwnerTasks":false,"canEditSlug":false,"canEditPublishStatus":false,"canEditFeatureStatus":false,"canEditDescription":false,"hideVersionStatuses":true,"cardImageLeft":650,"cardImageTop":0,"cardImageWidth":600,"cardImageHeight":600,"coverImageLeft":0,"coverImageTop":100,"coverImageWidth":1900,"coverImageHeight":400,"datasetVersions":[{"id":36005,"slug":"mtcars","name":"mtcars","creationDate":"2018-05-24T13:13:37.503Z","versionNumber":1,"versionNotes":"Initial release","thumbnailImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-49.png-1938055/dataset-thumbnail.png","datasetVersionUrl":"/lavanya321/mtcars/version/1","status":"ready","userMessage":null,"isRemoved":false,"creator":{"id":1938055,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","isOrganization":false,"name":"lavanya","profileUrl":"/lavanya321","slug":"lavanya321","maxFileSizeBytes":null,"userTier":null,"organizationMemberCount":null},"userSpecifiedSources":null,"doi":null,"databundleVersionId":37275}],"datasetVersionTotalCount":1,"feed":[],"topicId":null,"isNewTopic":false,"canSeeDeletionButton":false,"checklistDismissed":true,"type":"fileset","diffType":"versioned","checklistCollapsed":true,"isInFlight":false,"maintainerOrganization":null,"createdByKernel":null,"usabilityRating":{"score":0.29411766,"columnDescriptionScore":0.0,"coverImageScore":0.0,"fileDescriptionScore":0.0,"fileFormatScore":1.0,"licenseScore":1.0,"overviewScore":0.0,"provenanceScore":0.0,"publicKernelScore":1.0,"subtitleScore":0.0,"tagScore":0.0,"updateFrequencyScore":0.0},"licenseGroups":[{"id":1,"name":"Creative Commons","licenses":[{"id":1,"name":"CC0: Public Domain","description":"CC0: Public Domain \u003ca href=\u0022https://creativecommons.org/publicdomain/zero/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/publicdomain/zero/1.0/","displaySequence":1},{"id":3,"name":"CC BY-NC-SA 4.0","description":"CC BY-NC-SA 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-sa/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-sa/4.0/","displaySequence":2},{"id":8,"name":"CC BY-SA 4.0","description":"CC BY-SA 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-sa/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-sa/4.0/","displaySequence":3},{"id":10,"name":"CC BY-SA 3.0","description":"CC BY-SA 3.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-sa/3.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-sa/3.0/","displaySequence":4},{"id":13,"name":"Attribution 4.0 International (CC BY 4.0)","description":"CC-BY 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/4.0/","displaySequence":5},{"id":14,"name":"Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)","description":"CC-BY-NC 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc/4.0/","displaySequence":6},{"id":16,"name":"Attribution 3.0 Unported (CC BY 3.0)","description":"CC BY 3.0 \u003ca href=\u0022https://creativecommons.org/licenses/by/3.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/3.0/","displaySequence":7},{"id":17,"name":"Attribution 3.0 IGO (CC BY 3.0 IGO)","description":"CC BY 3.0 IGO \u003ca href=\u0022https://creativecommons.org/licenses/by/3.0/igo/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by/3.0/igo/","displaySequence":8},{"id":19,"name":"Attribution-NonCommercial-ShareAlike 3.0 IGO (CC BY-NC-SA 3.0 IGO)","description":"CC BY-NC-SA 3.0 IGO \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-sa/3.0/igo/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-sa/3.0/igo/","displaySequence":9},{"id":22,"name":"Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)","description":"CC BY-ND 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nd/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nd/4.0/","displaySequence":10},{"id":23,"name":"Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)","description":"CC BY-NC-ND 4.0 \u003ca href=\u0022https://creativecommons.org/licenses/by-nc-nd/4.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://creativecommons.org/licenses/by-nc-nd/4.0/","displaySequence":11}],"displaySequence":1},{"id":2,"name":"GPL","licenses":[{"id":9,"name":"GPL 2","description":"GPL 2 \u003ca href=\u0022http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html","displaySequence":1},{"id":25,"name":"GNU Lesser General Public License 3.0","description":"LGPL 3.0 \u003ca href=\u0022http://www.gnu.org/licenses/lgpl-3.0.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/lgpl-3.0.html","displaySequence":2},{"id":26,"name":"GNU Affero General Public License 3.0","description":"AGPL 3.0 \u003ca href=\u0022http://www.gnu.org/licenses/agpl-3.0.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/agpl-3.0.html","displaySequence":3},{"id":27,"name":"GNU Free Documentation License 1.3","description":"FDL 1.3 \u003ca href=\u0022http://www.gnu.org/licenses/fdl-1.3.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://www.gnu.org/licenses/fdl-1.3.html","displaySequence":4}],"displaySequence":2},{"id":3,"name":"Open Data Commons","licenses":[{"id":5,"name":"Database: Open Database, Contents: Database Contents","description":"Database: Open Database \u003ca href=\u0022http://opendatacommons.org/licenses/odbl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e, Contents: Database Contents \u003ca href=\u0022http://opendatacommons.org/licenses/dbcl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"http://opendatacommons.org/licenses/dbcl/1.0/","displaySequence":1},{"id":6,"name":"Database: Open Database, Contents: © Original Authors","description":"Database: Open Database \u003ca href=\u0022http://opendatacommons.org/licenses/odbl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e, Contents: © Original Authors","url":"http://opendatacommons.org/licenses/odbl/1.0/","displaySequence":2},{"id":15,"name":"ODC Public Domain Dedication and Licence (PDDL)","description":"PDDL  \u003ca href=\u0022https://opendatacommons.org/licenses/pddl/1.0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://opendatacommons.org/licenses/pddl/1.0/","displaySequence":3},{"id":24,"name":"ODC Attribution License (ODC-By)","description":"ODC-BY 1.0 \u003ca href=\u0022https://opendatacommons.org/licenses/by/1-0/index.html\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://opendatacommons.org/licenses/by/1-0/index.html","displaySequence":4}],"displaySequence":3},{"id":6,"name":"Community Data License","licenses":[{"id":20,"name":"Community Data License Agreement - Permissive - Version 1.0","description":"CDLA Permissive 1.0 \u003ca href=\u0022https://cdla.io/permissive-1-0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://cdla.io/permissive-1-0/","displaySequence":1},{"id":21,"name":"Community Data License Agreement - Sharing - Version 1.0","description":"CDLA Sharing 1.0 \u003ca href=\u0022https://cdla.io/sharing-1-0/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://cdla.io/sharing-1-0/","displaySequence":2}],"displaySequence":4},{"id":4,"name":"Special","licenses":[{"id":7,"name":"World Bank Dataset Terms of Use","description":"World Bank Dataset Terms of Use \u003ca href=\u0022https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets","displaySequence":1},{"id":2,"name":"Reddit API Terms","description":"Reddit API Terms \u003ca href=\u0022https://www.reddit.com/wiki/api\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.reddit.com/wiki/api","displaySequence":2},{"id":18,"name":"U.S. Government Works","description":"U.S. Government Works \u003ca href=\u0022https://www.usa.gov/government-works/\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://www.usa.gov/government-works/","displaySequence":3},{"id":28,"name":"EU ODP Legal Notice","description":"EU ODP Legal Notice \u003ca href=\u0022https://ec.europa.eu/info/legal-notice_en\u0022 target=\u0022_blank\u0022\u003e\u003cspan class=\u0022fa fa-info-circle\u0022/\u003e\u003c/a\u003e","url":"https://ec.europa.eu/info/legal-notice_en","displaySequence":4}],"displaySequence":5},{"id":5,"name":"Other","licenses":[{"id":11,"name":"Data files © Original Authors","description":"Data files © Original Authors","url":null,"displaySequence":1},{"id":12,"name":"Other (specified in description)","description":"Other (specified in description)","url":null,"displaySequence":2},{"id":4,"name":"Unknown","description":"Unknown","url":null,"displaySequence":3}],"displaySequence":6}],"owners":[{"id":6188516,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","isOrganization":false,"name":"Adeagbo Matthew thompson","profileUrl":"/demartechx","slug":"demartechx","maxFileSizeBytes":null,"userTier":null,"organizationMemberCount":null},{"id":1938055,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","isOrganization":false,"name":"lavanya","profileUrl":"/lavanya321","slug":"lavanya321","maxFileSizeBytes":null,"userTier":0,"organizationMemberCount":null}],"referrer":null,"convertToStandardCsvFormat":false,"overview":"","description":"","actions":[],"flags":[],"title":"mtcars","slug":"mtcars","licenseId":1,"data":{"id":37275,"databundleId":29529,"databundleVersionType":"fileset","databundleDiffType":"versioned","versionNumber":1,"zipBlobFileId":null,"totalCompressedSize":1024,"totalSize":1816,"ownerInfo":{"databundleVersionId":37275,"dataset":{"datasetId":28259,"datasetVersionId":36005,"dataviewToken":"eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..ksn_4WhC2VSsQVnc8MZ39A.aBUOWZGUN62aGHGiUzDbGBx-AR7yKe0qN-VsxGOfEOMhv-gTd7uwr2pWp12VidHGETsOajpFGH0Ea1Immm4TmkVBbbW-UP_VugXbBAVDvJt-fuBhLso1n-KhjRPLW4XNlcI1xeiE6pi-crlz5-cQkmXidvEgKkhGUqm4jWYW3FxGDrY9XAftLSyv3JJ_lPS2oG_rz-m8ML5x-boimmhw8W-i7Hsaet2JYtNWbGJ1_BF0HAApPvlt1NyY2eB626qI18e6BXn1CBf_34BytoCEL4O7x4-p75YADkJqq-M0NI0DSaAOBuI_E0jJRNkeiOf0JrnGRK452JI_EFloBdM2GCZKCTCj7uMfORFufoKUG_wr7hzwX-2mwN-sYS3hvRvXEdQWr2N6iIRpSXr8SyHqhQx01blykbkIlxPqlvP5fWwHOX_BRa1jBKFn98AOdAoN.QdmBEwwFWYr9KnuNpLY8XQ","scope":"lavanya321/mtcars"},"competition":null,"kernel":null,"previewsDisabled":false},"usesArchiveV2":true,"hasBundleDownload":true,"type":"databundleVersion","collapsed":false,"info":{"metrics":null,"archiveInfo":null,"archiveInfoV2":null,"blobFileInfo":null,"convertCsvInfo":null,"kernelReference":null},"settings":{"csvSettings":null,"bigQuerySettings":null,"bigQueryMirrorSettings":null,"storageSettings":{"webDataLocation":{"bucket":"kaggle-data-sets","path":"28259/36005/upload"},"sdsDataLocation":{"bucket":"kagglesdsdata","path":"datasets/28259/36005"},"responseDataLocation":null},"remoteUrlSettings":null,"remoteGithubSettings":null},"render":null,"totalChildren":0,"children":[],"firestorePath":"cWpXio2fR6kHgBAY6qXl/versions/58ZaHGgj8OnWEjSoJyKE","firestoreKey":"58ZaHGgj8OnWEjSoJyKE","name":"mtcars","description":""},"isPrivate":false,"owner":{"id":1938055,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/default-thumb.png","isOrganization":false,"name":"lavanya","profileUrl":"/lavanya321","slug":"lavanya321","maxFileSizeBytes":null,"userTier":0,"organizationMemberCount":null}});performance && performance.mark && performance.mark("DatasetContainer.componentCouldBootstrap");</script><script nonce="nwPCVBlgk3kXH2VT8cbkkA==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none"
+    });
+</script>
+<script nonce="nwPCVBlgk3kXH2VT8cbkkA==" type="text/javascript" async crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+</div>
+
+
+
+    <!-- Cheers, web-794867b7db-z494lp. -->
+
+    </main>
+</body>
+</html>
